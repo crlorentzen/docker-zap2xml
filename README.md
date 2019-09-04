@@ -1,10 +1,14 @@
 # docker-zap2xml
 See http://zap2xml.awardspace.info/ for original perl script and guidance for the configuration file.
-DockerFile to build from Alpine a small zap2xml instance
-Requires a /data volume, in this volume one must place
-  * zap2xml.conf per the original zap2xml development
+
+DockerFile to build from Alpine for a small, portable zap2xml instance
+
+Requires:
+  * /data volume, This volume one must place:
+  * zap2xml.conf following the original zap2xml spec
+
 Provides:
-  * zap2xml.xml (or other name if config changes the filename) in the /data mount.
+  * xmltv.xml (or other name if config changes the filename) in the /data mount.
 
 ## Build process (standard)
   1. Clone this repository
