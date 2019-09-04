@@ -14,8 +14,18 @@ Provides:
 ## Example run command
   `docker run --rm -v /data/docker/zap2xml:/data zap2xml`
 
+## Example docker-compose.yml
+used https://composerize.com/ to convert. It's a great tool!
+```
+version: '3.3'
+services:
+    zap2xml:
+        volumes:
+            - '/data/docker/zap2xml:/data'
+        image: zap2xml
+```
+
 ### Future ideas
-  * Example docker-compose.yml
   * Example zap2xml.conf
   * Submit to Docker Hub
 
