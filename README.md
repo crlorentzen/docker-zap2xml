@@ -15,7 +15,7 @@ Provides:
     `docker build -t zap2xml .`
 
 ## Example run command
-  `docker run --rm -v /data/docker/zap2xml:/data zap2xml -C /data/xmltv.conf`
+  `docker run --rm -v /data/docker/zap2xml:/data zap2xml -C /data/zap2xml.conf`
 
 ## Example docker-compose.yml
 used https://composerize.com/ to convert. It's a great tool!
