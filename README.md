@@ -28,8 +28,3 @@ services:
         image: crlorentzen/zap2xml
         command: -C /data/zap2xml.conf
 ```
-
-### Future ideas
-  * Example zap2xml.conf
-  * Separate data, config, cache
-
