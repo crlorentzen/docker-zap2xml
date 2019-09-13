@@ -13,4 +13,4 @@ COPY zap2xml.pl /zap2xml.pl
 RUN chmod 755 /zap2xml.pl
 
 WORKDIR /data
-CMD ["/zap2xml.pl","-C /data/zap2xml.conf"]
+ENTRYPOINT ["/zap2xml.pl"]
