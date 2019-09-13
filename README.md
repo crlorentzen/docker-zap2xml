@@ -28,3 +28,6 @@ services:
         image: crlorentzen/zap2xml
         command: -C /data/zap2xml.conf
 ```
+
+## Docker Hub Repo
+`https://hub.docker.com/r/crlorentzen/zap2xml`
