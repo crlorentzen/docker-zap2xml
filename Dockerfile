@@ -7,7 +7,8 @@ RUN apk add --no-cache \
   perl-lwp-useragent-determined \
   perl-json \
   perl-json-xs \
-  perl-lwp-protocol-https
+  perl-lwp-protocol-https \
+  perl-gd
 
 VOLUME /data
 COPY zap2xml.pl /zap2xml.pl
