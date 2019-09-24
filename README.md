@@ -30,4 +30,4 @@ services:
 ```
 
 ## Docker Hub Repo
-`https://hub.docker.com/r/crlorentzen/zap2xml`
+https://hub.docker.com/r/crlorentzen/zap2xml
