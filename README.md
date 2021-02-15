@@ -4,7 +4,7 @@ See http://zap2xml.awardspace.info/ for original perl script and guidance for th
 DockerFile to build from Alpine for a small, portable zap2xml instance. Removes dependency questions.
 
 Requires:
-  * /data volume, This volume is used for chache, config, and output
+  * /data volume, This volume is used for cache, config, and output
 
 Provides:
   * xmltv.xml (or other name if config changes the filename) in the /data mount.
